@@ -59,7 +59,7 @@ public class EmailGeneratorService {
                     .path("content")
                     .path("parts")
                     .get(0)
-                    .path("text")
+                    .path("text") // this is the text of the response
                     .asText();
         } catch (Exception e) {
             return "Error processing response: " + e.getMessage();
