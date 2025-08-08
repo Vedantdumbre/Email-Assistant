@@ -53,8 +53,9 @@ function App() {
                 <MenuItem value="none" >None</MenuItem>
                 <MenuItem value="professional" >Professional</MenuItem>
                 <MenuItem value="friendly" >Friendly</MenuItem>
-                <MenuItem value="sarcasm" >Sarcasm</MenuItem>
                 <MenuItem value="casual" >Casual</MenuItem>
+                <MenuItem value="school" >School</MenuItem>
+                <MenuItem value="interested" >Interested</MenuItem>
               </Select>
           </FormControl>
 
