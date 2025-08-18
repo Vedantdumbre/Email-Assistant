@@ -4,7 +4,19 @@ function createAIbutton() {
 
 }
 function findComposeToolbar() {
-
+    const selectors =[
+        '.btC',
+        '.aDh',
+        '[role="toolbar"]',
+        '.gU.Up'
+    ];
+    for(const selector of selectors) {
+        const toolbar = document.querySelector(selector);
+        if (toolbar) {
+            return toolbar;
+        }
+        return null;
+    }
 }
 
 function injectButton(){
